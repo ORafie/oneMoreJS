@@ -86,25 +86,19 @@ const backpackList = backpackObjectArray.map((backpack) => {
     </figure>
     <h1 class="backpack__name">${backpack.name}</h1>
     <ul class="backpack__features">
-      <li class="feature backpack__volume">Volume:<span> ${
-        backpack.volume
-      }l</span></li>
-      <li class="feature backpack__color">Color:<span> ${
-        backpack.color
-      }</span></li>
+      <li class="feature backpack__volume">Volume:<span> ${backpack.volume
+    }l</span></li>
+      <li class="feature backpack__color">Color:<span> ${backpack.color
+    }</span></li>
       <li class="feature backpack__age">Age:<span> ${backpack.backpackAge()} days old</span></li>
-      <li class="feature backpack__pockets">Number of pockets:<span> ${
-        backpack.pocketNum
-      }</span></li>
-      <li class="feature backpack__strap" data-side="left">Left strap length: <span>${
-        backpack.strapLength.left
-      } inches</span></li>
-      <li class="feature backpack__strap" data-side="right">Right strap length: <span>${
-        backpack.strapLength.right
-      } inches</span></li>
-      <li class="feature backpack__lid">Lid status: <span>${
-        backpack.lidOpen ? "open" : "closed"
-      }</span></li>
+      <li class="feature backpack__pockets">Number of pockets:<span> ${backpack.pocketNum
+    }</span></li>
+      <li class="feature backpack__strap" data-side="left">Left strap length: <span>${backpack.strapLength.left
+    } inches</span></li>
+      <li class="feature backpack__strap" data-side="right">Right strap length: <span>${backpack.strapLength.right
+    } inches</span></li>
+      <li class="feature backpack__lid">Lid status: <span>${backpack.lidOpen ? "open" : "closed"
+    }</span></li>
     </ul>
     <button class="lid-toggle">Open lid</button>
   `;
